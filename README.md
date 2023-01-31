@@ -1,6 +1,8 @@
 # Toaster Oven
 Toaster Oven is a finite state machine (FSM) that implements event trigger state transitions with an idealized instantaneous transition. There are four states in this FSM:  SETUP, SELECTOR_CHANGE_PENDING, COOKING, and RESET_PENDING.  Six events are of concern, although any button event is possible:   TIMER_TICK, ADC_CHANGED, and the button events for buttons 3 and 4.
 
+<img width="733" alt="Screenshot 2023-01-30 at 6 42 41 PM" src="https://user-images.githubusercontent.com/52511888/215649301-62ceb6b9-ede1-42f3-8568-b4cc1625f1cb.png">
+
 ## Files 
 - BOARD.c/.h – Standard hardware library 
 - Oled.h, Ascii.h – These files provides the interface for manipulating the oled Oled.   No .c files are needed here, as Lab7SupportLib contains compiled definitions for the functions in Oled.h.
