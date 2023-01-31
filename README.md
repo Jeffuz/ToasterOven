@@ -36,3 +36,6 @@ that a processor can understand in the form of an integer.
     - Additionally, if the time/temp selector should return to their settings when baking started.   So, if the user selects 1:00 minute, then cooks for 30 seconds, then cancels cooking, the timer should now say 1:00 minute.
   - When the toaster oven is on, the 8 LEDs indicate the remaining cook time in a horizontal “progress bar” to complement the text on the OLED. At the start of cooking, all LEDs should be on.  After 1/8 of the total time has passed, LD1 will turn off. After another 1/8 of the original cook time, LD2 will turn off, and so on until all LEDs are off at the end.
   - After cooking is complete, the system will return to the current mode with the last used settings; the heating elements should be off, the time and temperature reset to the pot value, and the input selector displayed if in bake mode. 
+
+## Demo of Toaster Oven:
+- https://youtu.be/KZml_3xZytI
